@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Sign-in Page</title>
+  </head>
+  <body style="background-image: ../img/img1.jpg;">
+    <div class="grid">
+      <main>
+        <!-- The greetings -->
+
+        <section class="greetings">
+          <p>Welcome,</p>
+          <p>Glad to see you!</p>
+        </section>
+
+        <!-- The input region  -->
+
+        <section class="input">
+          <form action="" class="form">
+            <section class="inputField">
+              <input
+                type="email"
+                class="inputField__one"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                autocomplete="on"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="inputField__two"
+                placeholder="Password"
+                autocomplete="off"
+                required
+              />
+              <small><a>Forgot Password?</a></small>
+            </section>
+
+            <!-- The login button -->
+
+            <div class="button">
+              <button type="submit"style="background-color: #1377ff;">
+                <p >Login</p>
+              </button>
+            </div>
+          </form>
+        </section>
+        <div class="orsignin">
+          <span class="orsignin__line"></span>
+          <p class="signIn">or sign in with</p>
+          <span class="orsignin__line"></span>
+        </div>
+
+        <div class="socials">
+          <button class="google" style="background-color: red;"><a href="">Google</a></button>
+          <button class="facebook" style="background-color: #0f0ce0;"><a href="">Facebook</a></button>
+        </div>
+        <div class="existingAcct">
+          <small>Don't have existing account?</small>
+          <a href="./sign-up.html"><button style="background-color: #1377ff;">Sign Up</button></a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
